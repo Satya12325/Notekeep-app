@@ -1,0 +1,85 @@
+.IconLogo{
+    /* display:flex; */
+    /* justify-content:center */
+    /* align-items:center; */
+    
+    background: transparent!important;
+    /* border-image-source: linear-gradient(180deg, #458DEA 0%, rgba(69, 141, 234, 0.17) 100%) ;  */
+    background: linear-gradient(183.49deg, rgba(111, 148, 223, 0.24) 0.82%, rgba(231, 237, 242, 0.24) 97.09%)!important;
+    
+}
+.paper{
+    width: 50%;
+    /* rgba(50, 26, 185, 0.15);  */
+    background: transparent!important;
+    backdrop-filter: blur(10px);
+   padding: 10px 20px;
+    /* opacity: .5; */
+    margin: auto;
+    margin-top: 20px;
+}
+.addIcon{
+    position: absolute;
+    background-color:green;
+    color: #fff;   
+    border-radius:50%;  
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.addIcon:hover{
+    height: 60px;
+    width: 60px;
+    transition: 0.8s;
+   
+}
+.text{
+    width: 100%;
+    border:none !important;
+    margin:10px 0!important;
+}
+.inputBox{
+    /* display: none; */
+    padding-bottom: 50px;
+   
+}
+.Cardspaper{
+    width: 350px;
+    
+    background: transparent!important;
+    backdrop-filter: blur(10px);
+   padding: 10px 20px;
+    /* opacity: .5; */
+    margin: auto;
+    margin-top: 20px;
+    border-end-end-radius: 20px!important;
+    border-top-left-radius: 20px!important;
+}
+.pined{
+    position: absolute;
+    right:20px;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: rgb(88, 87, 87);
+    top:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}
+.pin{
+    position: absolute;
+    right:12px;   
+   transform: rotate(33deg);
+    color:red;
+    cursor: pointer;
+}
+.peper_width{
+    width:300px;
+    height:300px;
+}
